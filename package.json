@@ -1,0 +1,32 @@
+{
+  "name": "@nestjs-1729/digit-sender",
+  "version": "1.0.4",
+  "description": "A PIN sender package for NestJS.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jhc-dev-1729",
+  "keywords": [
+    "NestJS",
+    "nodemailer",
+    "pin",
+    "email authentication",
+    "email verification"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^9.4.0",
+    "@nestjs/core": "^9.4.0",
+    "handlebars": "^4.7.7",
+    "nodemailer": "^6.9.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

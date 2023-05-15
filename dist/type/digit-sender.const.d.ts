@@ -1,0 +1,3 @@
+declare const DIGIT_SENDER_CONFIG = "DIGIT_SENDER_CONFIG";
+declare const TEMPLATE_ADDRESS = "templates";
+export { DIGIT_SENDER_CONFIG, TEMPLATE_ADDRESS };
