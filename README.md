@@ -93,6 +93,7 @@ DigitSenderModule.forRoot({
 }) 
 ```
 ``` hostType ``` - gmail | custom
+
 ``` hostInfo ``` - Optional | Mandatory
 
 ### sendPin(...)
@@ -113,7 +114,9 @@ sendMail = {
 ```
 
 ```pinHandler``` - A function that can manage with generated pin before sending mail.
+
 ```successHandler``` - A function that can execute after successful email sending process.
+
 ```errorHandler``` - A function that can execute after unsuccessful email sending process.
 
 ### pin.hbs
